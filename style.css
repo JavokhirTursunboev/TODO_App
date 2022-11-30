@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+  background-image: url(img/Ellipse\ 1.png), url(img/Ellipse\ 2.png);
+  background-repeat: no-repeat;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8px;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.navbar .hour {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.center__img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9rem;
+  max-width: 100%;
+  height: auto;
+}
+.text h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 4rem;
+  color: rgba(0, 0, 0, 0.9);
+  opacity: 0.9;
+}
+.text p {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  width:67%;
+  margin:auto;
+
+}
+.btn__general{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000000;
+    margin-top: 111px;
+    margin-left: 19px;
+    margin-right: 19px;
+    width: 90%;
+    text-align: center;   
+    height:3.8rem;
+    background-color: #62D2C3;
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    
+    ;
+}
