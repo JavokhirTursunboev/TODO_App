@@ -11,6 +11,7 @@ body {
   background-color: #e5e5e5;
   background-image: url(img/Ellipse\ 1.png), url(img/Ellipse\ 2.png);
   background-repeat: no-repeat;
+
 }
 .navbar {
   width: 90%;
@@ -20,11 +21,13 @@ body {
   padding-top: 8px;
   align-items: center;
   margin-left: 1.5rem;
+  z-index:33;
 }
 .navbar .hour {
   font-weight: 900;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  z-index: 9999999;
 }
 
 .center__img img {
@@ -68,7 +71,6 @@ body {
   text-align: center;
   height: 3.8rem;
   background-color: #62d2c3;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,4 +169,105 @@ body {
   font-size: 15px;
   line-height: 22px;
   padding-left: 5px;
+}
+
+/* ============ login ========= */
+.login__text {
+  margin-top: 134px;
+}
+.login__img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+ .signin {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+    position: absolute;
+    right: 31px;
+  color: #62d2c3;
+
+}
+
+.login{
+    position: relative;
+}
+
+/* ============ todo =========== */
+.circle::after{
+    content: "";
+    width:188px;
+    height:188px;
+    position: absolute;
+    
+    background: rgba(230, 255, 252, 0.44);
+    top:-66px;
+    left:-66px;
+    border-radius: 90%;
+}
+.circle::before{
+    content: "";
+    width:188px;
+    height:188px;
+    position: absolute;
+    
+    background: rgba(230, 255, 252, 0.44);
+
+    top:-100px;
+    left:0px;
+    border-radius: 100%;
+
+}
+.todo__img{
+    height: 292px;
+    background-color:#62D2C3 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position:absolute;
+    width:100%;
+    left: 0;
+    height: 60%;
+    z-index:-1;
+    
+}
+.img{
+    width:100px;
+    height:100px;
+}
+.img img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.todo__img h3{
+    margin: 15px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.9;
+}
+.hour__todo{
+    position:absolute;
+}
+.todo__clock{
+    margin-top: 80%;
+    margin-left:36%;
 }
