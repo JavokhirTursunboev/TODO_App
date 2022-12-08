@@ -76,6 +76,24 @@ body {
   align-items: center;
   border-radius: 5px;
 }
+.btn__todo{
+  
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 11px;
+    margin-left: 19px;
+    margin-right: 19px;
+    width: 90%;
+    text-align: center;
+    height: 3.8rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
 
 /* ======== REGISTERATION========== */
 .reg__text h2 {
@@ -202,72 +220,3 @@ body {
 }
 
 /* ============ todo =========== */
-.circle::after{
-    content: "";
-    width:188px;
-    height:188px;
-    position: absolute;
-    
-    background: rgba(230, 255, 252, 0.44);
-    top:-66px;
-    left:-66px;
-    border-radius: 90%;
-}
-.circle::before{
-    content: "";
-    width:188px;
-    height:188px;
-    position: absolute;
-    
-    background: rgba(230, 255, 252, 0.44);
-
-    top:-100px;
-    left:0px;
-    border-radius: 100%;
-
-}
-.todo__img{
-    height: 292px;
-    background-color:#62D2C3 ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    position:absolute;
-    width:100%;
-    left: 0;
-    height: 60%;
-    z-index:-1;
-    
-}
-.img{
-    width:100px;
-    height:100px;
-}
-.img img{
-    width:100%;
-    height:100%;
-    border-radius: 50%;
-}
-.todo__img h3{
-    margin: 15px;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-
-opacity: 0.9;
-}
-.hour__todo{
-    position:absolute;
-}
-.todo__clock{
-    margin-top: 80%;
-    margin-left:36%;
-}
