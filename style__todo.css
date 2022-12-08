@@ -168,4 +168,7 @@ main{
         flex-wrap: nowrap;
         width:100%;
     }
+    #new-task-input {
+        font-size: 1rem;
+    }
 }
