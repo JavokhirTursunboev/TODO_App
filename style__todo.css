@@ -145,3 +145,27 @@ main{
     color:crimson;    
 }
 
+@media (max-width: 499px) {
+    header h1 {
+        text-align: center;
+    }
+    #new-task-form {
+        display: flex;
+        flex-direction: column;
+    }
+    #new-task-submit {
+       padding-top: 10px;
+    }
+    .task-list h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .task-list {
+        width:100%;
+    }
+   
+    #tasks .task .content .text {
+        flex-wrap: nowrap;
+        width:100%;
+    }
+}
